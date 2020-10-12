@@ -3,6 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLJoins", "SQLJoins", "{9CBA594B-1514-4A0D-BA01-A1952CD66EDC}"
+	ProjectSection(SolutionItems) = preProject
+		SqlJoinsBasic.sql = SqlJoinsBasic.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBCreation", "DBCreation", "{A73D9413-9618-489E-8A97-1DE8977733B1}"
+	ProjectSection(SolutionItems) = preProject
+		CreateDBStructure\DBAndbasicTables.sql = CreateDBStructure\DBAndbasicTables.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
