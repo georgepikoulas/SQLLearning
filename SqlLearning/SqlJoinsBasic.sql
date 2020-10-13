@@ -23,3 +23,14 @@ right join StudentCourse stc on stc.ROLL_NO = stu.ROLL_NO
 Select stu.NAME , stc.Course_ID
 from Student stu 
 full join StudentCourse stc ON stc.ROLL_NO = stu.ROLL_NO
+
+--------------------CARTESIAN JOIN
+select stu.NAME , stc.Course_ID
+from Student stu
+cross join StudentCourse stc
+
+
+---------------SELF JOIN
+select stu.ROLL_NO , stud.NAME
+from Student stu , Student stud 
+where stu.ROLL_NO < stud.ROLL_NO
