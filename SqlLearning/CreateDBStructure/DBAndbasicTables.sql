@@ -73,15 +73,15 @@ insert into SqlLearning.dbo.StudentCourse (ROLL_NO , Course_ID) values (4,3)
 if not exists (select * from SqlLearning.dbo.StudentCourse where ROLL_NO=5 and Course_ID  = 1 )               
 insert into SqlLearning.dbo.StudentCourse (ROLL_NO , Course_ID) values (5,1)
 
-if not exists (select * from SqlLearning.dbo.StudentCourse where ROLL_NO=6 and Course_ID  = 4 )               
-insert into SqlLearning.dbo.StudentCourse (ROLL_NO , Course_ID) values (6,4)
+if not exists (select * from SqlLearning.dbo.StudentCourse where ROLL_NO=9 and Course_ID  = 4 )               
+insert into SqlLearning.dbo.StudentCourse (ROLL_NO , Course_ID) values (9,4)
 
-if not exists (select * from SqlLearning.dbo.StudentCourse where ROLL_NO=7 and Course_ID  =5  )               
-insert into SqlLearning.dbo.StudentCourse (ROLL_NO , Course_ID) values (7,5)
+if not exists (select * from SqlLearning.dbo.StudentCourse where ROLL_NO=10 and Course_ID  =5  )               
+insert into SqlLearning.dbo.StudentCourse (ROLL_NO , Course_ID) values (10,5)
 
 
-if not exists (select * from SqlLearning.dbo.StudentCourse where ROLL_NO=8 and Course_ID  =4  )               
-insert into SqlLearning.dbo.StudentCourse (ROLL_NO , Course_ID) values (8,4)
+if not exists (select * from SqlLearning.dbo.StudentCourse where ROLL_NO=11 and Course_ID  =4  )               
+insert into SqlLearning.dbo.StudentCourse (ROLL_NO , Course_ID) values (11,4)
 
 
 select * from SqlLearning.dbo.StudentCourse
